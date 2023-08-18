@@ -13,6 +13,7 @@
 
 .brandimage {
     filter: grayscale(1);
+    width: 100%;
 }
 
 .cv-right-info {
@@ -27,12 +28,34 @@
 .cv-primary {
     color: $color-primary;
 }
-.fa-2xl {
-    font-size: 4em;
-    line-height: .03125em;
-    vertical-align: -0.1875em;
-}
+
 
 .row-imgs img {
     width: 80px;   
+}
+
+.cv-info-middle p{
+    line-height: 4px;
+}
+
+.line-row{
+    margin-top: 20px;
+    border: 2px solid transparent;
+}
+
+.line-row p {
+    padding-top: 10px;
+}
+.line-row:hover{
+    border-radius: 10px;
+    border: 2px solid #fff;
+    -webkit-box-shadow: 0px 0px 43px 9px rgba(13,110,253,1);
+    -moz-box-shadow: 0px 0px 43px 9px rgba(13,110,253,1);
+    box-shadow: 0px 0px 43px 9px rgba(13,110,253,1);
+}
+@include mobile{
+    .line-row{
+        border-bottom: 1px solid #EEE;
+        margin-bottom: 20px;
+    }
 }
