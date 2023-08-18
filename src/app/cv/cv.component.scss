@@ -1,0 +1,38 @@
+@import "../../mixins.scss";
+@import "../../colors.scss";
+@import "./loader.scss";
+
+.wrapper{
+    background-image: url('../../assets/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0.75%);
+}
+
+.brandimage {
+    filter: grayscale(1);
+}
+
+.cv-right-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cv-info-middle{
+    background-color: black;
+}
+
+.cv-primary {
+    color: $color-primary;
+}
+.fa-2xl {
+    font-size: 4em;
+    line-height: .03125em;
+    vertical-align: -0.1875em;
+}
+
+.row-imgs img {
+    width: 80px;   
+}
