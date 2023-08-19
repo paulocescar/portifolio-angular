@@ -12,7 +12,7 @@ export class CvComponent implements OnInit {
     this.startTypingAnimation("PHP v: 7.* - 8.*", "php-version");
     this.startTypingAnimation("5 anos - Laravel", "php-tecs-1");
     this.startTypingAnimation("2 anos - Lumen", "php-tecs-2");
-    this.startTypingAnimation("2 anos - Sympony", "php-tecs-3");
+    this.startTypingAnimation("2 anos - Symfony", "php-tecs-3");
 
     this.startTypingAnimation("Node v: 12.* - 17.*", "node-version");
     this.startTypingAnimation("2 anos - Express", "node-tecs-1");
@@ -24,7 +24,7 @@ export class CvComponent implements OnInit {
     this.startTypingAnimation("React v: 8.* - 17.*", "react-version");
     this.startTypingAnimation("2 anos - React", "react-tecs-1");
 
-    this.startTypingAnimation("Typescript v: 3.* - 5.*", "typescript-version");
+    this.startTypingAnimation("Typescript", "typescript-version");
     this.startTypingAnimation("3 anos - Typescript", "typescript-tecs-1");
 
     this.startTypingAnimation("Javascript v: ES6", "javascript-version");
@@ -39,19 +39,19 @@ export class CvComponent implements OnInit {
     this.startTypingAnimation("Azure", "azure-version");
     this.startTypingAnimation("1 anos - Azure", "azure-tecs-1");
 
-    this.startTypingAnimation("MySQL v: 5.* - 8.*", "mysql-version");
+    this.startTypingAnimation("MySQL", "mysql-version");
     this.startTypingAnimation("5 anos - MySQL", "mysql-tecs-1");
 
-    this.startTypingAnimation("Postgres v: 5.* - 8.*", "postgres-version");
+    this.startTypingAnimation("Postgres", "postgres-version");
     this.startTypingAnimation("2 anos - Postgres", "postgres-tecs-1");
 
-    this.startTypingAnimation("MongoDB v: 5.* - 8.*", "mongodb-version");
+    this.startTypingAnimation("MongoDB", "mongodb-version");
     this.startTypingAnimation("2 anos - MongoDB", "mongodb-tecs-1");
 
-    this.startTypingAnimation("HTML v: 5", "html-version");
+    this.startTypingAnimation("HTML5", "html-version");
     this.startTypingAnimation("5 anos - HTML5", "html-tecs-1");
 
-    this.startTypingAnimation("CSS: 3", "css-version");
+    this.startTypingAnimation("CSS3", "css-version");
     this.startTypingAnimation("5 anos - CSS3", "css-tecs-1");
   }
 
